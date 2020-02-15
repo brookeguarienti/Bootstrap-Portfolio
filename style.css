@@ -1,0 +1,144 @@
+
+/* Body */
+body {
+    background-image: url('images/houndstooth-pattern.png');
+  }
+
+/* NavBar */  
+  .navbar {
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-width: 0 0 1px !important;
+    background-color: white !important;
+    height: 70px !important;
+  }
+
+  .navbar-brand { 
+    background-color: #4aaaa5;
+    color: white !important;
+    padding: 0 10px;
+    font-size: 25px;
+    line-height: 70px;
+    margin: 30px 0;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+
+  .nav-link {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+
+  .navbar .container {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+/* Container */
+  .container {
+    background-color: white;
+    border:1px solid #dddddd;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px 30px 30px;
+  }
+
+  p {
+    margin: 0 0 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+  }
+
+  h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0 0 10px;
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .home-content {
+    padding-top: 10px;
+  }
+
+  .img-fluid {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container-fluid {
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 8px;
+    bottom: 0;
+    position: fixed;
+  }
+
+  h6 {
+    padding-top: 10px;
+  }
+
+  .child-2 {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 1px 0;
+    padding: 0 12px 0;
+  }
+
+  .child-1 {
+    padding: 0 12px 0;
+  }
+  
+  .child-3 {
+      padding: 0 12px 0;
+  }
+
+  /* contact form area */
+.contact-content-wrapper {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 15px 15px 15px;
+    background-color: white;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px solid #dddddd   
+}
+#contact {
+    font-family: 'Georgia', Times, 'Times New Roman', serif !important;
+    margin: 20px 20px 0 !important;
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold !important;
+    font: 25px !important;
+}
+    
+.home-content {
+    padding-top: 10px;
+}
+    
+#message {
+    height: 200px;
+}
+    
+.btn {
+    background: #4aaaa5;
+    padding: 10px 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    width: 100px;
+    display: inline-block;
+}
