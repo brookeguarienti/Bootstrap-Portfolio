@@ -33,9 +33,10 @@
         padding: 0 10px;
         font-size: 25px;
         line-height: 70px;
-        margin: 0 30px;
+        margin: 30px 0;
+        font-weight: bold;
         font-family: 'Georgia', Times, 'Times New Roman', serif;
-              }
+      }
 
       .nav-link {
         font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -61,7 +62,18 @@
         border-bottom: 2px solid #dddddd;
         color: #4aaaa5;
         font-size: 1.5em;
-        margin: 0 0 10px;
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+
+      .navbar .container {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+      }
+
+      .home-content {
+        padding-top: 10px;
       }
 
       /* ul.navbar-nav {
@@ -72,6 +84,7 @@
 
      <!-- This is the Header Section -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="container">
             <a class="navbar-brand" href="#">Brooke Guarienti</a>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="nav navbar-nav navbar-right text-right ml-auto">
@@ -86,6 +99,7 @@
                 </li>
               </ul>
             </div>
+          </nav>
           </nav>
     </header>
 
@@ -104,13 +118,13 @@
         <!-- Row 2 -->
         <div class="row">
         <!-- This is column 1 of 2 in row 2-->
-            <div class="col-sm-2">
+            <div class="col-sm-2 home-content">
                 <!-- This is the Headshot Image -->
                 <img src="images/Brooke_Headshots.jpg" class="img-fluid" alt="Responsive image">
             </div>
             <!-- This is the About Me Content Section -->
             <!-- This is column 2 of 2 in row 2 -->
-            <div class="col-sm-10">
+            <div class="col-sm-10 home-content">
                 <p>
                     I'm Brooke, a Web Development student.
                 </p>
