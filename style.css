@@ -11,16 +11,18 @@ body {
     border-width: 0 0 1px !important;
     background-color: white !important;
     height: 70px !important;
+    padding: 0;
   }
 
   .navbar-brand { 
     background-color: #4aaaa5;
     color: white !important;
-    padding: 0 10px;
-    font-size: 25px;
+    padding: 0 15px;
+    font-size: 20px;
     line-height: 70px;
-    margin: 30px 0;
+    margin: 0;
     font-weight: bold;
+    text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
   }
 
@@ -31,16 +33,51 @@ body {
   .navbar .container {
     border: none;
     padding: 0;
+    margin: 0 auto;
     background-color: transparent;
   }
 
+  ul.nav.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  
+  .navbar .nav-item.child-1 {
+      margin-left: auto;
+  }
+
+  @media (min-width: 768px) {
+
+  }
+  @media (min-width: 576px) {
+  }
+  @media (max-width: 575.98px) {
+    nav.navbar {
+        height: auto !important;
+    }
+    .navbar-brand-wrapper {
+        padding: 0 !important;
+    }
+    .navbar-brand {
+        width: 100%;
+    }
+    ul.nav.navbar-nav {
+        margin: 10px 0;
+    }
+    ul.nav.navbar-nav .nav-link {
+        padding: 0;
+    }
+    .navbar .nav-item.child-3 {
+        margin-right: auto;
+    }
+  }
+
 /* Container */
-  .container {
+  .container .content-wrapper {
+    padding: 30px 30px 0;
     background-color: white;
     border:1px solid #dddddd;
-    max-width: 960px;
     margin: 40px auto;
-    padding: 30px 30px 30px;
   }
 
   p {
@@ -61,6 +98,9 @@ body {
 
   .home-content {
     padding-top: 10px;
+  }
+  .home-content img {
+    margin-bottom: 20px;
   }
 
   .img-fluid {
@@ -102,16 +142,22 @@ body {
   .child-3 {
       padding: 0 12px 0;
   }
+  section.section-header {
+    margin-bottom: 20px;
+  }
 
   /* contact form area */
 .contact-content-wrapper {
-    max-width: 960px;
     margin: 40px auto;
     padding: 15px 15px 15px;
     background-color: white;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border: 1px solid #dddddd   
+}
+
+form.contact-form {
+    margin-bottom: 30px;
 }
     
 .home-content {
@@ -135,6 +181,18 @@ body {
 }
 
 /* Portfolio page */
+.portfolio-content-wrapper.container .portfolio-wrapper {
+    padding: 30px 30px 0;
+    background-color: white;
+    border:1px solid #dddddd;
+    margin: 40px auto;
+}
+.portfolio-content-wrapper.container .portfolio-wrapper section.portfolio-item {
+    position: relative;
+    max-height: 180px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
 .portfolio-content-wrapper.container .portfolio-wrapper section.portfolio-item span {
     position: absolute;
     width: 100%;
@@ -147,4 +205,8 @@ body {
     line-height: 40px;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.portfolio-img {
+    width: 100%;
 }
